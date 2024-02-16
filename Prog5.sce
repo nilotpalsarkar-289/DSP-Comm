@@ -1,3 +1,4 @@
+// Generate a discrete-time sequence x[n] with the program asking the user to enter sample values and the n=0th position. Generate a sequence y4[n] and y5[n], which is a time delayed/Advanced version of x[n], with input of the delay/advancement taken from the user. Print x[n], y4[n], y5[n].
 clc;
 clear;
 close;
@@ -20,7 +21,7 @@ a.data_bounds = [-10,0;10,10];
 // Plot a 2D line plot using the function with the specified parameters
 plot2d3('gnn',n,x);
 xlabel('n -->');
-ylabel('x1[n] -->');
+ylabel('x[n] -->');
 title('Input Sequence');
 n=p+d:1:q+d;
 subplot(3,1,2)
@@ -31,7 +32,7 @@ a.data_bounds = [-10,0;10,10];
 plot2d3('gnn',n,x);
 xlabel('n -->');
 ylabel('y4[n] -->');
-title('Right Shift Delay');
+title('Delayed Version of x[n]');
 n=p-g:1:q-g;
 subplot(3,1,3)
 a = gca();
@@ -41,4 +42,4 @@ a.data_bounds = [-10,0;10,10];
 plot2d3('gnn',n,x);
 xlabel('n -->');
 ylabel('y5[n] -->');
-title('Left Shift Delay');
+title('Advanced Version of x[n]');
