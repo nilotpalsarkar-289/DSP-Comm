@@ -1,4 +1,4 @@
-//For the two sequences x1[n] & x2[n] generated, perform addition operation and plot them with approprite labelling of x-axis and y-axis: y2[n] = x1[n] - x2[n]
+// For the two sequences x1[n] & x2[n] generated, perform addition operation and plot them with approprite labelling of x-axis and y-axis: y3[n] = x1[n].x2[n]
 
 clc;
 clear;
@@ -31,7 +31,7 @@ x2=[x2 y(temp)];
 temp=temp+1;
 end
 end
-y2=x1-x2;
+y3=x1.*x2;
 
 subplot(3,1,1);
 plot2d3(t,x1);
@@ -44,7 +44,7 @@ xlabel('n');
 ylabel('x2[n] ->');
 title('Second Sequence');
 subplot(3,1,3);
-plot2d3(t,y2);
+plot2d3(t,y3);
 xlabel('n');
-ylabel('y2[n] ->');
-title('Subtracted Sequence');
+ylabel('y3[n] ->');
+title('Multiplicated Sequence');
