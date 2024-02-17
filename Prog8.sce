@@ -6,7 +6,7 @@ close;
 
 x = input("Enter Input Sequence");      // Takes user input for the input sequence and stores it in variable 'x'
 p = input('Enter the starting point of input sequence:');       // Takes user input for the starting point of the input sequence and stores it in the variable 'p'.
-b = input('Amplitude Scaling Factor:');     // Takes user input for the amplitude scaling factor and stores it in the variable 'b'
+b = input('Enter Amplitude Scaling Factor:');     // Takes user input for the amplitude scaling factor and stores it in the variable 'b'
 C = input('Enter Compression Factor:');     // Takes user input for the compression factor and stores it in the variable 'C'
 D = input('Enter Extension Factor:');       // Takes user input for the extension factor and stores it in variable 'D'
 m = length(x);      // Calculates the length of the input sequence and stores it in the variable 'm'
