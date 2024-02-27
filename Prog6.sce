@@ -4,8 +4,8 @@ clc;
 clear;
 close;
 
-N = input('Enter the number of samples');
 x = input('Enter the input sequence');
+N=length(x);
 n = 0:N-1;
 k = n;
 kn = k'*n;
