@@ -1,4 +1,4 @@
-// Generate a d.t sequence x[n] with the program asking the user to enter sample values and the n=0th position. Generate sequence y1[n], y2[n] and y3[n] which are theamplitude scaled and time scaled versions of x[n], with input of the amplitude scaling factor, compression factor and extended factor taken from the user. Print x[n] y1[n], y2[n] and y3[n].
+// Generate a d.t sequence x[n] with the program asking the user to enter sample values and the n=0th position. Generate sequence y1[n], y2[n] and y3[n] which are the amplitude scaled and time scaled versions of x[n], with input of the amplitude scaling factor, compression factor and extended factor taken from the user. Print x[n] y1[n], y2[n] and y3[n].
 
 clc;
 clear;
