@@ -1,4 +1,4 @@
-//For the two sequences x1[n] & x2[n] generated, perform subtraction operation and plot them with approprite labelling of x-axis and y-axis: y2[n] = x1[n] + x2[n]
+//For the two sequences x1[n] & x2[n] generated, perform addition operation and plot them with approprite labelling of x-axis and y-axis: y2[n] = x1[n] + x2[n]
 
 clc;
 clear;
