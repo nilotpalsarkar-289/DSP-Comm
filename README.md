@@ -2,7 +2,7 @@
 
 ## Overview: - ##
 
-This repository provides a hands-on approach to digital communication by leveraging Scilab, an open-source software for numerical computation. The programs included here focus on the digital processing of signals, a crucial aspect of modern communication systems.
+This repository provides a hands-on approach to digital communication by leveraging Scilab, an open-source software. The programs included here focuses on the digital processing of signals, a crucial aspect of modern communication systems.
 
 ## Features: - ##
 
